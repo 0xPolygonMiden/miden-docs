@@ -5,12 +5,16 @@ MIDDEN_CLIENT_REPO="https://github.com/0xPolygonMiden/miden-client.git"
 MIDDEN_NODE_REPO="https://github.com/0xPolygonMiden/miden-node.git"
 MIDDEN_BASE_REPO="https://github.com/0xPolygonMiden/miden-base.git"
 MIDEN_TUTORIAL_REPO="https://github.com/0xPolygonMiden/miden-tutorials"
+MIDEN_VM_REPO="https://github.com/0xPolygonMiden/miden-vm"
+MIDEN_COMPILER_REPO="https://github.com/0xPolygonMiden/compiler"
 
 # Define the local directories where the docs will be placed
 CLIENT_DIR="src/miden-client/"
 NODE_DIR="src/miden-node/"
 BASE_DIR="src/miden-base/"
 TUTORIAL_DIR="src/miden-tutorials"
+VM_DIR="src/miden-vm"
+COMPILER_DIR="src/miden-compiler"
 
 # Function to clone and copy docs from a repository
 update_docs() {
@@ -57,5 +61,11 @@ update_docs "$MIDDEN_BASE_REPO" "$BASE_DIR"
 
 # Update miden-tutorial docs (using default branch)
 update_docs "$MIDEN_TUTORIAL_REPO" "$TUTORIAL_DIR"
+
+# Update miden-vm docs (using default branch)
+update_docs "$MIDEN_VM_REPO" "$VM_DIR"
+
+# Update miden-compiler docs (using default branch)
+update_docs "$MIDEN_COMPILER_REPO" "$COMPILER_DIR" "next"
 
 echo "All documentation has been updated."
