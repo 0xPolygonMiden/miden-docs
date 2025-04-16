@@ -21,9 +21,8 @@
     - [Interacting with Public Smart Contracts](imported/miden-tutorials/src/rust-client/public_account_interaction_tutorial.md)
     - [How To Create Notes with Custom Logic](imported/miden-tutorials/src/rust-client/custom_note_how_to.md)
     - [Foreign Procedure Invocation](imported/miden-tutorials/src/rust-client/foreign_procedure_invocation_tutorial.md)
-    - [How to Use Ephemeral Notes](imported/miden-tutorials/src/rust-client/ephemeral_note_how_to.md)
+    - [How to Use Unauthenticated Notes](imported/miden-tutorials/src/rust-client/unauthenticated_note_how_to.md)
     - [How to Use Mappings in Miden Assembly](imported/miden-tutorials/src/rust-client/mappings_in_masm_how_to.md)
-    
   - [Web-Client](imported/miden-tutorials/src/web-client/about.md)
     - [Creating Accounts and Faucets](imported/miden-tutorials/src/web-client/create_deploy_tutorial.md)
     - [Mint, Consume, and Create Notes](imported/miden-tutorials/src/web-client/mint_consume_create_tutorial.md)

@@ -9,15 +9,15 @@ There are two ways to connect to a Miden node:
 
 ## Prerequisites
 
-To run `miden-node` locally, you need to:  
+To run `miden-node` locally, you need to:
 
-1. Install the `miden-node` crate.  
-2. Provide a `genesis.toml` file.  
-3. Provide a `miden-node.toml` file.  
+1. Install the `miden-node` crate.
+2. Provide a `genesis.toml` file.
+3. Provide a `miden-node.toml` file.
 
 Example `genesis.toml` and `miden-node.toml` files can be found in the **miden-tutorials** repository:
 
-- The `genesis.toml` file defines the **start timestamp** for the `miden-node` testnet and allows you to pre-deploy accounts and funding faucets.  
+- The `genesis.toml` file defines the **start timestamp** for the `miden-node` testnet and allows you to pre-deploy accounts and funding faucets.
 - The `miden-node.toml` file configures the **RPC endpoint** and other settings for the `miden-node`.
 
 ## Running the Miden node locally
@@ -88,10 +88,10 @@ http://localhost:57291
 
 ### Reseting the node
 
-*If you need to reset the local state of the node and the rust-client, navigate to the root of the miden-tutorials repository and run this command:*
+_If you need to reset the local state of the node and the rust-client, navigate to the root of the miden-tutorials repository and run this command:_
 
-```bash 
-rm -rf rust-client/store.sqlite3 
+```bash
+rm -rf rust-client/store.sqlite3
 rm -rf node/storage/accounts
 rm -rf node/storage/blocks
 ```
